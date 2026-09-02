@@ -1,6 +1,4 @@
-def main():
-    print("Hello from pythoh-git-hw!")
+import random
 
-
-if __name__ == "__main__":
-    main()
+def generate_number():
+    return random.randint(1, 10)
